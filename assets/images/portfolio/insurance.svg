@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="National insurance agency website mockup">
+  <rect width="640" height="400" fill="#f0f7f4"/>
+  <rect y="0" width="640" height="48" fill="#0d5c4b"/>
+  <rect x="24" y="14" width="110" height="20" rx="4" fill="#fff"/>
+  <rect x="460" y="18" width="55" height="12" rx="3" fill="#fff" opacity="0.5"/>
+  <rect x="530" y="14" width="86" height="20" rx="10" fill="#2ecc9a"/>
+  <rect x="0" y="48" width="640" height="170" fill="#148f72"/>
+  <rect x="52" y="88" width="290" height="30" rx="4" fill="#fff"/>
+  <rect x="52" y="130" width="230" height="14" rx="3" fill="#fff" opacity="0.75"/>
+  <rect x="52" y="158" width="170" height="14" rx="3" fill="#fff" opacity="0.5"/>
+  <rect x="52" y="188" width="125" height="30" rx="15" fill="#2ecc9a"/>
+  <rect x="44" y="250" width="168" height="120" rx="8" fill="#fff"/>
+  <rect x="228" y="250" width="168" height="120" rx="8" fill="#fff"/>
+  <rect x="412" y="250" width="168" height="120" rx="8" fill="#fff"/>
+</svg>

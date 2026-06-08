@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Boutique wellness studio website mockup">
+  <rect width="640" height="400" fill="#faf8f5"/>
+  <rect y="0" width="640" height="50" fill="#fff"/>
+  <rect x="0" y="49" width="640" height="1" fill="#e8e0d8"/>
+  <rect x="28" y="16" width="95" height="18" rx="9" fill="#9b7bb8"/>
+  <rect x="440" y="19" width="50" height="12" rx="6" fill="#c4b5a0"/>
+  <rect x="510" y="19" width="50" height="12" rx="6" fill="#c4b5a0"/>
+  <rect x="0" y="50" width="640" height="200" fill="#e8ddd0"/>
+  <rect x="56" y="100" width="270" height="32" rx="16" fill="#5c4a6e"/>
+  <rect x="56" y="148" width="220" height="14" rx="7" fill="#9b7bb8"/>
+  <rect x="56" y="176" width="180" height="14" rx="7" fill="#8a7a6a" opacity="0.6"/>
+  <rect x="56" y="210" width="130" height="34" rx="17" fill="#9b7bb8"/>
+  <rect x="48" y="280" width="168" height="95" rx="12" fill="#fff"/>
+  <rect x="236" y="280" width="168" height="95" rx="12" fill="#fff"/>
+  <rect x="424" y="280" width="168" height="95" rx="12" fill="#fff"/>
+</svg>
