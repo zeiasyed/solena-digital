@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop — Hearth &amp; Co.</title>
+  <meta name="description" content="Browse our full collection of artisan specialty foods, pantry staples, and handcrafted gift sets. Free shipping on orders over $75.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-bar">
+    Sample site by <a href="../../portfolio.html">Solena Digital</a> — Specialty E-commerce Retailer
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Hearth <span>&amp;</span> Co.</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="cart-btn" aria-label="Shopping cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span>Cart</span>
+          <span class="cart-count">3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Shop All</h1>
+        <p>Artisan pantry staples, small-batch spreads, and gift-ready collections — ships nationwide.</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="shop-layout">
+        <aside class="shop-sidebar">
+          <div class="filter-group">
+            <h3>Category</h3>
+            <ul class="filter-list">
+              <li><label><input type="checkbox" checked> All Products</label></li>
+              <li><label><input type="checkbox"> Pantry</label></li>
+              <li><label><input type="checkbox"> Spreads &amp; Honey</label></li>
+              <li><label><input type="checkbox"> Gift Sets</label></li>
+              <li><label><input type="checkbox"> Seasonal</label></li>
+              <li><label><input type="checkbox"> Spices &amp; Seasonings</label></li>
+            </ul>
+          </div>
+          <div class="filter-group">
+            <h3>Price</h3>
+            <div class="price-range">
+              <input type="number" placeholder="Min" value="0" min="0">
+              <span>—</span>
+              <input type="number" placeholder="Max" value="100" min="0">
+            </div>
+          </div>
+          <div class="filter-group">
+            <h3>Availability</h3>
+            <ul class="filter-list">
+              <li><label><input type="checkbox" checked> In Stock</label></li>
+              <li><label><input type="checkbox"> On Sale</label></li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="shop-main">
+          <div class="shop-toolbar">
+            <p class="shop-count">Showing 12 products</p>
+            <div class="shop-sort">
+              <select aria-label="Sort products">
+                <option>Featured</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Newest</option>
+                <option>Bestselling</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Heritage olive oil gift set">
+                <span class="product-badge">Bestseller</span>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Pantry</p>
+                <h3 class="product-name">Heritage Olive Oil Trio</h3>
+                <p class="product-price">$38.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Wildflower honey and preserves">
+                <span class="product-badge">New</span>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Spreads</p>
+                <h3 class="product-name">Wildflower Honey &amp; Preserves</h3>
+                <p class="product-price">$24.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&q=80" alt="The Hearth gift box">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Gifts</p>
+                <h3 class="product-name">The Hearth Gift Box</h3>
+                <p class="product-price">$65.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Small-batch spice collection">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Spices</p>
+                <h3 class="product-name">Small-Batch Spice Collection</h3>
+                <p class="product-price">$29.00 <span class="original">$34.00</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Artisan sea salt trio">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Pantry</p>
+                <h3 class="product-name">Artisan Sea Salt Trio</h3>
+                <p class="product-price">$18.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&q=80" alt="Weekend brunch gift set">
+                <span class="product-badge">Seasonal</span>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Gifts</p>
+                <h3 class="product-name">Weekend Brunch Gift Set</h3>
+                <p class="product-price">$52.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Single-origin coffee beans">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Pantry</p>
+                <h3 class="product-name">Single-Origin Coffee Beans</h3>
+                <p class="product-price">$22.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Fig &amp; balsamic spread">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Spreads</p>
+                <h3 class="product-name">Fig &amp; Balsamic Spread</h3>
+                <p class="product-price">$14.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&q=80" alt="Holiday entertaining collection">
+                <span class="product-badge">New</span>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Seasonal</p>
+                <h3 class="product-name">Holiday Entertaining Collection</h3>
+                <p class="product-price">$78.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Smoked paprika &amp; herbs">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Spices</p>
+                <h3 class="product-name">Smoked Paprika &amp; Herb Blend</h3>
+                <p class="product-price">$12.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Artisan crackers assortment">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Pantry</p>
+                <h3 class="product-name">Artisan Crackers Assortment</h3>
+                <p class="product-price">$16.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&q=80" alt="Housewarming gift bundle">
+              </div>
+              <div class="product-info">
+                <p class="product-category">Gifts</p>
+                <h3 class="product-name">Housewarming Gift Bundle</h3>
+                <p class="product-price">$58.00 <span class="original">$68.00</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <div>
+            <h2>Free shipping on orders over $75</h2>
+            <p>Nationwide delivery in 3–5 business days. Gift notes available at checkout.</p>
+          </div>
+          <a href="contact.html" class="btn btn-primary">Questions? Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Hearth <span>&amp;</span> Co.</a>
+          <p>Artisan specialty foods and handcrafted goods, curated for modern tables and thoughtful gifting.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html">All Products</a></li>
+            <li><a href="shop.html">Pantry</a></li>
+            <li><a href="shop.html">Gifts</a></li>
+            <li><a href="shop.html">Seasonal</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Shipping</a></li>
+            <li><a href="contact.html">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Demo site by Solena Digital</p>
+        <p>&copy; <span id="footer-year"></span> Hearth &amp; Co. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

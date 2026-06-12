@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Class | Lumina Wellness Studio</title>
+  <meta name="description" content="Book a yoga, pilates, or meditation class at Lumina Wellness Studio in San Francisco. Online booking, memberships, and inquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-bar">
+    <div class="container demo-bar-inner">
+      <span>Sample site by <strong>Solena Digital</strong> — Boutique Wellness Studio</span>
+      <a href="../../portfolio.html">← Back to portfolio</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Lumina <span>Wellness</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Classes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Book a Class</a>
+      </nav>
+      <a class="btn btn-primary btn-sm header-cta" href="contact.html">Book a Class</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Reservations</span>
+        <h1>Book a class</h1>
+        <p>Reserve your mat online, explore membership options, or reach out with questions. We respond within one business day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h3>Visit the studio</h3>
+          <div class="contact-item">
+            <strong>Address</strong>
+            <span>428 Hayes St<br>San Francisco, CA 94102</span>
+          </div>
+          <div class="contact-item">
+            <strong>Phone</strong>
+            <a href="tel:4155550174">(415) 555-0174</a>
+          </div>
+          <div class="contact-item">
+            <strong>Hours</strong>
+            <span>Monday – Sunday<br>6:00 AM – 9:00 PM</span>
+          </div>
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:hello@lumina-wellness.com">hello@lumina-wellness.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>Social &amp; Newsletter</strong>
+            <span>Follow <strong style="color:var(--purple-dark);">@luminawellnesssf</strong> on Instagram</span>
+            <span style="margin-top:0.35rem;display:block;">Subscribe to our email nurture series for weekly wellness tips and member offers.</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600&q=80" alt="Lumina Wellness Studio" style="border-radius:12px;margin-top:1.5rem;box-shadow:var(--shadow);">
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:600;color:var(--purple-dark);margin:0 0 1.5rem;">Reserve your spot</h3>
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@email.com">
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(415) 555-0000">
+          </div>
+          <div class="form-row">
+            <label for="class-type">Class Type</label>
+            <select id="class-type" name="class-type" required>
+              <option value="">Select a class</option>
+              <option value="yoga">Flow Yoga</option>
+              <option value="pilates">Reformer Pilates</option>
+              <option value="meditation">Mindful Meditation</option>
+              <option value="membership">Membership Inquiry</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div class="form-row">
+            <label for="message">Notes</label>
+            <textarea id="message" name="message" placeholder="First-time visitor? Let us know — we'll prepare a welcome tour."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" style="width:100%;">Submit Booking Request</button>
+          <p class="form-note">This is a demo form. In production, submissions connect to your booking platform and trigger confirmation emails plus nurture sequence enrollment.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Membership Options</span>
+          <h2>Choose your plan</h2>
+          <p>All memberships include mat rental, props, and access to our online class library.</p>
+        </div>
+        <div class="membership-grid">
+          <article class="membership-card">
+            <h3>Drop-In</h3>
+            <div class="membership-price">$32 <span>/ class</span></div>
+            <p>Single class, no commitment.</p>
+            <ul>
+              <li>Any open class</li>
+              <li>30-day validity</li>
+            </ul>
+          </article>
+          <article class="membership-card featured">
+            <h3>Monthly Unlimited</h3>
+            <div class="membership-price">$189 <span>/ month</span></div>
+            <p>Best value for regular practice.</p>
+            <ul>
+              <li>Unlimited classes</li>
+              <li>Priority booking</li>
+              <li>Guest pass monthly</li>
+            </ul>
+          </article>
+          <article class="membership-card">
+            <h3>Class Pack</h3>
+            <div class="membership-price">$260 <span>/ 10 classes</span></div>
+            <p>Flexible multi-class bundle.</p>
+            <ul>
+              <li>90-day expiration</li>
+              <li>Shareable</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80" alt="Peaceful yoga practice">
+        <div>
+          <span class="eyebrow">First visit</span>
+          <h2 style="font-family:var(--font-display);font-size:2rem;font-weight:600;color:var(--purple-dark);margin:0 0 1rem;">What to expect</h2>
+          <p style="color:var(--muted);margin:0 0 1rem;">Arrive 10 minutes early for your first class. Our team will show you around, help you select props, and answer any questions about yoga, pilates, or meditation.</p>
+          <p style="color:var(--muted);margin:0 0 1rem;">Wear comfortable, breathable clothing. We provide mats, blocks, straps, and reformer equipment. Hydration stations and changing areas are available on-site.</p>
+          <p style="color:var(--muted);margin:0;">After your visit, you'll receive a welcome email with class recommendations, a link to follow us on Instagram, and an invitation to join our weekly nurture newsletter.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo">Lumina <span>Wellness</span></span>
+          <p>Boutique yoga, pilates, and meditation studio in the heart of San Francisco.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Classes</h4>
+          <a href="services.html">Flow Yoga</a>
+          <a href="services.html">Reformer Pilates</a>
+          <a href="services.html">Meditation</a>
+          <a href="services.html">Full Schedule</a>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Book a Class</a>
+          <a href="contact.html">Memberships</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:4155550174">(415) 555-0174</a>
+          <span>428 Hayes St, San Francisco, CA</span>
+          <span>Mon–Sun 6am–9pm</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="footer-year"></span> Lumina Wellness Studio. Demo site by Solena Digital.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
