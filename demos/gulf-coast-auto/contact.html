@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment | Gulf Coast Auto Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-bar"><div class="container demo-bar-inner"><span>Sample site by <strong>Solena Digital</strong> — Coastal Auto Repair</span><a href="../../portfolio.html">← Back to portfolio</a></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Gulf Coast <span>Auto</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Book Now</a>
+      </nav>
+      <a class="btn btn-primary btn-sm header-cta" href="contact.html">Book Appointment</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Book online</span>
+        <h1>Schedule your service</h1>
+        <p>Pick a service, choose a time, and get a confirmation text. Most appointments available same-day or next-day.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h3>Visit us</h3>
+          <div class="contact-item">
+            <strong>Address</strong>
+            <span>4520 Gulf Blvd<br>St. Petersburg, FL 33706</span>
+          </div>
+          <div class="contact-item">
+            <strong>Phone</strong>
+            <a href="tel:7275550163">(727) 555-0163</a>
+          </div>
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:service@gulfcoastauto.demo">service@gulfcoastauto.demo</a>
+          </div>
+          <div class="contact-item">
+            <strong>Hours</strong>
+            <span>Mon–Fri 7:30am–6pm<br>Saturday 8am–3pm<br>Sunday Closed</span>
+          </div>
+          <div class="contact-item">
+            <strong>Service area</strong>
+            <span>Tampa · St. Petersburg · Clearwater · Largo · Pinellas Park</span>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <h3 style="font-family:var(--font-display);text-transform:uppercase;margin:0 0 1.25rem;">Book an appointment</h3>
+          <div class="form-row"><label for="name">Name</label><input type="text" id="name" name="name" required placeholder="Your name"></div>
+          <div class="form-row"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" required placeholder="(727) 555-0000"></div>
+          <div class="form-row"><label for="vehicle">Vehicle</label><input type="text" id="vehicle" name="vehicle" placeholder="Year, make, model"></div>
+          <div class="form-row">
+            <label for="service">Service needed</label>
+            <select id="service" name="service">
+              <option>Oil change / maintenance</option>
+              <option>Brake service</option>
+              <option>Check engine light / diagnostics</option>
+              <option>AC repair</option>
+              <option>Tires / alignment</option>
+              <option>State inspection</option>
+              <option>Other repair</option>
+            </select>
+          </div>
+          <div class="form-row"><label for="date">Preferred date</label><input type="date" id="date" name="date"></div>
+          <div class="form-row"><label for="notes">Additional notes</label><textarea id="notes" name="notes" placeholder="Describe the issue or request..."></textarea></div>
+          <button type="submit" class="btn btn-primary">Book Appointment</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><span class="logo">Gulf Coast <span>Auto</span></span></div>
+        <div class="footer-col"><h4>Services</h4><a href="services.html">All Services</a></div>
+        <div class="footer-col"><h4>Company</h4><a href="about.html">About</a></div>
+        <div class="footer-col"><h4>Contact</h4><a href="tel:7275550163">(727) 555-0163</a></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; <span id="footer-year"></span> Gulf Coast Auto Works. Demo site by Solena Digital.</span></div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Hartwell &amp; Associates</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-bar"><div class="container demo-bar-inner"><span>Sample site by <strong>Solena Digital</strong> — Midwest Law Firm</span><a href="../../portfolio.html">← Back to portfolio</a></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Hartwell <span>&amp; Associates</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Practice Areas</a>
+        <a href="about.html">Attorneys</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a class="btn btn-primary btn-sm header-cta" href="contact.html">Free Consultation</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="hero-eyebrow">Contact us</p>
+        <h1>Schedule your free consultation</h1>
+        <p>Available in-person at our Chicago and Milwaukee offices, or by phone and video conference.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h3>Office locations</h3>
+          <div class="contact-item">
+            <strong>Chicago (Main)</strong>
+            <span>233 S Wacker Dr, Suite 8400<br>Chicago, IL 60606</span>
+          </div>
+          <div class="contact-item">
+            <strong>Milwaukee</strong>
+            <span>777 E Wisconsin Ave, Suite 1200<br>Milwaukee, WI 53202</span>
+          </div>
+          <div class="contact-item">
+            <strong>Phone</strong>
+            <a href="tel:3125550147">(312) 555-0147</a>
+          </div>
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:intake@hartwelllaw.demo">intake@hartwelllaw.demo</a>
+          </div>
+          <div class="contact-item">
+            <strong>Hours</strong>
+            <span>Mon–Fri 8:30am–6pm · Emergency line 24/7</span>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <h3 style="font-family:var(--font);margin:0 0 1.25rem;">Request a consultation</h3>
+          <div class="form-row"><label for="name">Full name</label><input type="text" id="name" name="name" required></div>
+          <div class="form-row"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" required></div>
+          <div class="form-row">
+            <label for="area">Practice area</label>
+            <select id="area" name="area">
+              <option>Personal Injury</option>
+              <option>Business Law</option>
+              <option>Estate Planning</option>
+              <option>Family Law</option>
+              <option>Real Estate</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-row"><label for="message">Brief description of your matter</label><textarea id="message" name="message"></textarea></div>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><span class="logo">Hartwell <span>&amp; Associates</span></span></div>
+        <div class="footer-col"><h4>Practice Areas</h4><a href="services.html">Personal Injury</a></div>
+        <div class="footer-col"><h4>Firm</h4><a href="about.html">Attorneys</a></div>
+        <div class="footer-col"><h4>Contact</h4><a href="tel:3125550147">(312) 555-0147</a></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; <span id="footer-year"></span> Hartwell &amp; Associates. Demo site by Solena Digital.</span></div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
